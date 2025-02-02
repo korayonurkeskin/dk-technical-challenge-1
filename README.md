@@ -68,7 +68,6 @@ This Python script processes book metadata from an API. It performs the followin
 - Includes tests (using Python’s built-in `unittest` framework) to validate filtering and price updating functionality.
 - Execute:
 
-````bash
+```bash
   python main.py test
-  ```
-````
+```
