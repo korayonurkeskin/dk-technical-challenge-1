@@ -29,3 +29,35 @@ This Python script processes book metadata from an API. It performs the followin
    git clone https://github.com/korayonurkeskin/dk-technical-challenge-1.git
    cd dk-technical-challenge-1
    ```
+
+## Step-by-Step Instructions to Run the Script
+
+1. **Activate Your Virtual Environment:**
+
+   - If the virtual environment is not already active, run the following command based on your operating system:
+     - **On macOS/Linux:**
+       ```bash
+       source venv/bin/activate
+       ```
+     - **On Windows:**
+       ```bash
+       venv\Scripts\activate
+       ```
+   - Your terminal prompt should then display `(venv)`, indicating that the virtual environment is active.
+
+2. **Install Dependencies (if not already installed):**
+
+   - Run:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Run the Script:**
+
+   - Execute:
+     ```bash
+     python main.py
+     ```
+
+4. **Verify the Output:**
+   - A file named `filtered_books.csv` will be generated in the project directory containing the processed book data.
