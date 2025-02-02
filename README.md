@@ -60,4 +60,15 @@ This Python script processes book metadata from an API. It performs the followin
      ```
 
 4. **Verify the Output:**
+
    - A file named `filtered_books.csv` will be generated in the project directory containing the processed book data.
+
+5. **(Optional) Unit Testing**
+
+- Includes tests (using Python’s built-in `unittest` framework) to validate filtering and price updating functionality.
+- Execute:
+
+````bash
+  python main.py test
+  ```
+````
