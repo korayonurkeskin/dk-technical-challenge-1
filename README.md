@@ -69,5 +69,5 @@ This Python script processes book metadata from an API. It performs the followin
 - Execute:
 
 ```bash
-  python main.py test
+  python -m unittest test_main.py
 ```
