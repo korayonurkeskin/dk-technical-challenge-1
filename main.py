@@ -28,14 +28,12 @@ def update_prices(books):
     """
     For books published after 2020, add 20% to the price.
     """
-    updated_books = []
     for book in books:
         pub_date = datetime.strptime(book['publication_date'], '%Y-%m-%d')
         if pub_date.year > 2020:
             original_price = book['price']
             book['price'] = round(original_price * 1.2, 2)
-        updated_books.append(book)
-    return updated_books
+    return books
 
 def write_csv(books, filename):
     """
